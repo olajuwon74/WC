@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="w-36 py-7 flex justify-between align-center mx-auto">
       <div className="flex-1">
-        <a href="https://twitter.com/_WeirdCreatures">
+        <a href="https://twitter.com/talkn_earn">
           <Image
             alt="twitter"
             src={twitterLogo}
@@ -18,7 +18,7 @@ const Navbar = () => {
           />
         </a>
       </div>
-      <div className="flex-1">
+      {/* <div className="flex-1">
         <a href="https://opensea.io/collection/weirdcreaturesofficial">
           <Image
             alt="opensea"
@@ -28,9 +28,9 @@ const Navbar = () => {
             className="cursor-pointer"
           />
         </a>
-      </div>
+      </div> */}
       <div className="flex-1">
-        <a href="https://etherscan.io/address/0x250e674EC63Df4273c493c419D9f1e44035CBdAC">
+        <a href="https://medium.com/@Talkn">
           <Image
             alt="etherscan"
             src={etherscanLogo}

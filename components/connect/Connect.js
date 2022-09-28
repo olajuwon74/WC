@@ -492,12 +492,12 @@ const Connect = () => {
   return (
     <div className="text-center">
       <div>
-        <p
+        {/* <p
           className="mt-4 font-bold text-5xl text-[#413738]"
           style={{ fontFamily: "Bahnschrift" }}
         >
           {value} /6666
-        </p>
+        </p> */}
       </div>
 
       <div>
@@ -540,7 +540,13 @@ const Connect = () => {
           className="uppercase my-4 text-[#413738] font-bold text-sm"
           style={{ fontFamily: "Bahnschrift" }}
         >
-          First 666 free - 0.005 eth - max 5 per wallet.
+          "SOMETHING ELSE"
+        </p>
+        <p
+          className="uppercase my-4 text-[#413738] font-bold text-sm"
+          style={{ fontFamily: "Bahnschrift" }}
+        >
+          The platform for talk in web3, through CYVIC.
         </p>
 
         {!!data?.address ? (

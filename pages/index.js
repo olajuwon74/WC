@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div className="min-h-screen sm:h-fit">
       <Head>
-        <title>Weird Creatures</title>
-        <meta name="description" content="Weird Creatures NFT." />
+        <title>Talkn</title>
+        <meta name="description" content="Talkn." />
       </Head>
 
       <main className="flex flex-col space-between h-full">

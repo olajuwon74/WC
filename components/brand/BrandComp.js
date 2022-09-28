@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import mainLogo from "../../assets/mainl.png";
-import mainLogo2 from "../../assets/unknown.png";
+import mainLogo from "../../assets/TALKin.jpeg";
+// import mainLogo2 from "../../assets/unknown.png";
 
 const BrandComp = () => {
   return (
